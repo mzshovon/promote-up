@@ -1,0 +1,196 @@
+/*=============== FollowR Section CSS ==================*/
+
+.followr-header {
+    height: 477px;
+    width: 100%;
+}
+.solution-icon {
+	height: 65px;
+	width: 65px;
+}
+/*.card-title {
+    margin-bottom: 15px !important;
+}*/
+.followr-app-left-sidebar {
+	margin-bottom: 20px;
+}
+
+.carousel-indicators {
+	bottom: -20px !important;
+}
+.pricing-section {
+	/*height: 1948px;*/
+	min-height: 1665px;
+	width: 100%;
+	/*background-color: #f8f9fa;*/
+}
+.card-style {
+	padding: 5px !important;
+}
+
+
+/*followr cards*/
+#block1 .followr-card .card-image-1 {
+	content:url("../images/Followr/screenshots/tfbjfd5b-Web-Application-Development.png");
+}
+#block1 .followr-card .card-image-2 {
+	content:url("../images/Followr/screenshots/Web-design-1.jpg");
+}
+#block1 .followr-card .card-image-3 {
+	content:url("../images/Followr/screenshots/u086a4ff5217_original_opt.jpeg");
+}
+
+
+/*followr cards*/
+#block2 .followr-card .card-image-1 {
+	content:url("../images/Followr/screenshots/profit-marketing-models.jpg");
+}
+#block2 .followr-card .card-image-2 {
+	content:url("../images/Followr/screenshots/market-research1.jpg");
+}
+#block2 .followr-card .card-image-3 {
+	content:url("../images/Followr/screenshots/business_promotion_powerpoint_presentation_slides_Slide01.jpg");
+}
+
+/*followr cards*/
+#block3 .followr-card .card-image-1 {
+	content:url("../images/Followr/screenshots/content-development-tips1.jpg");
+}
+#block3 .followr-card .card-image-2 {
+	content:url("../images/Followr/screenshots/Brand\ Development\ Strategy.jpeg");
+}
+#block3 .followr-card .card-image-3 {
+	content:url("../images/Followr/screenshots/PUBLIC-RELATIONS-at-India-CSR-Network.jpg");
+}
+
+
+/*followr cards*/
+#block4 .followr-card .card-image-1 {
+	content:url("../images/Followr/screenshots/10-Of-The-Best-Corporate-Videos-Ever.png");
+}
+#block4 .followr-card .card-image-2 {
+	content:url("../images/Followr/screenshots/client\ post\ 2.jpg");
+}
+#block4 .followr-card .card-image-3 {
+	content:url("../images/Followr/screenshots/the-best-applications-to-learn-as-a-graphics-designer.jpg");
+}
+
+
+/*followr cards*/
+#block5 .followr-card .card-image-1 {
+	content:url("../images/Followr/screenshots/analytic\ dta.jpg");
+}
+#block5 .followr-card .card-image-2 {
+	content:url("../images/Followr/screenshots/market-analysis-steps\ \(1\).jpg");
+}
+#block5 .followr-card .card-image-3 {
+	content:url("../images/Followr/screenshots/AdobeStock_225336042.png");
+}
+/* Pricing Section */
+p.pricing-price {
+    display: inline-block;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+.tk {
+	font-size: 3rem;
+	/* vertical-align: super; */
+	display: inline-block;
+}
+.amount {
+	display: inline-block; 
+	font-size: 46px;
+}
+.amount-subtitle {
+    font-size: 13.5px;
+    text-align: left;
+}
+.amount-subtitle span {
+	font-size: 1rem;
+	display: inline-block;
+}
+.product-details p {
+	font-size: 13px;
+}
+.product-details span {
+	color: #2DD681; 
+	font-size: 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 575px) {
+	.followr-header h1 {
+		font-size: 30px;
+	}	
+	.learn-more {
+    display: block;
+    margin-left: -15px;
+    padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.tk {
+		font-size: 2rem;
+	}
+	.amount {
+		font-size: 38px;
+	}
+	
+}
+
+
+
+/*@media screen and (max-width: 750px) {
+	.price-card {
+		text-align: center;
+	}
+}*/
+
+/*.product-details a:hover {
+	color:#1e7e34 !important;
+}*/
+
+/*.product-details a:hover span {
+    color: #1e7e34;
+}
+.product-details a:hover {
+    color: #1e7e34;
+}*/
+.many-more:hover a{
+	color: #1e7e34!important;
+}
+.many-more:hover span {
+	color: #1e7e34!important;
+}
+.product-details a:hover span {
+    color: #1e7e34;
+}
+
+.bgimg-followr {
+	position: relative;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 75%;
+}
+.bgimg-followr {
+	background-image: url('../images/services.png');
+}
+
+@media only screen and (max-device-width: 992px) {
+	.bgimg-followr {
+	    background-position: left;
+	    background-size: auto;
+	}
+}
+
+.card-title {
+    /*text-align: left;*/
+    padding-bottom: 6px;
+    font-size: 18px !important;
+}
